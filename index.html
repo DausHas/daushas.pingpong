@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pingpong</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link  href="https:/fonts.googleapis.com/css?family=inter:400,800,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <section class="main-section">
+        <div id="gameOverMenu" class="game-over">
+            <button id="againBtn" class="try-again"></button>
+        </div>
+        <div class="score">
+            <div class="title">
+                <h1 style="font-family: open sans;">scoreboard</h1>
+            </div>
+            <div class="score-item" style="font-family: open sans;">
+                <h2 class="score-text"> YOU <span id="playerScore" class="player-first">0</span> : <span id="aiScore" class="player-second">0</span>
+                    Bot
+                </h2>
+            </div>
+        </div>
+             </div>
+
+
+
+             
+        <canvas id="canvas"></canvas>
+        
+
+
+        <div id="instruction" class="instruction-section" style="font-family: open sans;">
+            <h2>Instruction</h2>
+            <button id="instructionBtn" class="instruction-btn">show</button>
+            <div id="instruction-hidden" class="instruction-text">
+                <ul>
+                    <li>Start game -  Space bar</li>
+                    <li>Pause/return game -  P</li>
+                    <li>Move paddle - up and down </li>
+                    <li>If you win or lose - left click for new game</li>
+                </uL>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <script src="script.js"></script>
+</body>
+
+</html>
